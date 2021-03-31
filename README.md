@@ -8,5 +8,5 @@ Originally this device was intended to be a display-less device but for the inte
 
 Because the primary purpose of this device was to be a NAS we needed to equip it with storage. Initially, I thought of using mSATA SSDs because of it's small form factor and speed. However efficient mSATA drives currently don't span higher than 1 TB and using two for 2 TB isn't quite enough for the scale of this device. Using standard SATA 3.5 or 2.5 inch drives requires adapters and seperate power inputs and would not fit the enclosure. Currently the solution being used is USB 3.0 Portable Drives. Since the Raspberry Pi only uses USB 2.0 we have to sacrifice the data rate and split the power and data so that we can externally supply enough current to power the entire drive. Since we are using SMB to map the device we don't need to worry too much about the loss of potential data rate with the USB spec downgrade because we are reliant of the protocol and network speed. (SMB 3.0 as of now has a maximum of around 160 mbps) which is a bottleneck if we used USB 3.0 (USB 3.0 as of now has a maximum of 640 mbps for transfer speeds) Two of these drives were used for a total of 8TB (4TB each) and is set up in a RAID0 configuration using software.
 
-
+Using DietPi (since it is customizable and flexible to configure) we can have our own custom OS to use for the device.
 

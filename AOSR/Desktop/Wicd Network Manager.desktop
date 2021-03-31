@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wicd Network Manager
+Comment=
+Exec=wicd-gtk --no-tray
+Icon=wicd-gtk
+Path=
+Terminal=false
+StartupNotify=false

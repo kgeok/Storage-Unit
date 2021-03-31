@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Software
+Type=Application
+Comment=Quickly and easily install DietPi optimized software.
+Terminal=true
+Exec=/DietPi/dietpi/dietpi-software
+Icon=system-software-update
+Categories=ConsoleOnly;System;
+GenericName=DietPi-Software
+Path=
+StartupNotify=false
