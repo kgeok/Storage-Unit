@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Storage Unit Launcher</title>
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name = "viewport" content = "initial-scale = 2.0, user-scalable = no">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon-180x180.png" />
+ 
+</head>
+
+<style type="text/css">
+
+#title {
+overflow:hidden;
+background-color:#08603f;
+color:white;
+margin:none;
+padding: 10px;
+}
+
+#content {
+justify-content:center;
+align-items:center;
+position: center;
+width:85%;
+}
+
+body
+{
+position: relative;
+font-family: 'Questrial';
+color: black;
+margin: 0 auto;
+}
+
+button {
+margin: 0 auto;
+border-radius: 5px;
+width: 100%;
+color:white;
+font-family: 'Questrial';
+background-color:#0a3f08;
+border:none;
+height:10%;
+text-align: center;
+position: relative;
+text-decoration: none;
+}
+
+#other {
+margin: 0 auto;
+border-radius: 5px;
+width: 100%;
+color:white;
+background-color:00B606;
+border:none;
+height:10%;
+text-align: center;
+position: relative;
+text-decoration: none;
+}
+
+#credits {
+color:#ECECEC;
+font-size: 65%;
+}
+</style>
+
+
+<body>
+<center>
+<div id="title">Storage Unit</div>
+<br/>
+<div id="content">
+<a href="./nextcloud/"><button>NextCloud</button></a>
+<br/>
+<br/>
+<a href="http://storageunit:32400/web/"><button>Plex</button></a>
+<br/>
+<br/>
+<a href="http://storageunit:9091/web/"><button>Transmission</button></a>
+<br/>
+<br/>
+<a href="./linuxdash/"><button>Linux Dash</button></a>
+<br/>
+<br/>
+<a href="http://storageunit:8081/web/" onclick="javascript:event.target.port=8081"><button>SickRage</button></a>
+<br/>
+<br/>
+<a href="./aria2"><button>Aria</button></a>
+<br/>
+<br/>
+<a href="vnc://storageunit"><button id="other">VNC</button></a>
+<br/>
+<br/>
+</div>
+
+<div id="credits">
+Designed by<br/><b>Kevin George</b><br/><br/>
+</div>
+</body>
+</center>
+</html>
