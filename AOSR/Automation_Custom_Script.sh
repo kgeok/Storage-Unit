@@ -9,6 +9,8 @@ sudo apt-get install XVKBD
 sudo apt-get install python3-dev python3-venv
 sudo apt-get install libavahi-compat-libdnssd-dev
 sudo apt-get install xinput-calibrator
+sudo apt-get install pulseaudio pulseaudio-module-bluetooth
+sudo usermod -a -G bluetooth root
 sudo npm install npm -g
 sudo npm install -g node.js
 sudo npm install -g --unsafe-perm homebridge
