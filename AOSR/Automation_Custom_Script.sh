@@ -14,13 +14,10 @@ sudo npm install -g node.js
 sudo npm install -g --unsafe-perm homebridge
 sudo npm install -g --unsafe-perm homebridge-cmdswitch2
 
-
-
-
 cd boot/AOSR/
 mv index.html /var/www/
 mv config.json /root/.homebridge/
-mv Icons /var/www/
+mv icons /var/www/
 mv smb.conf /etc/
 mv Desktop /root/
 mv shairport-sync.conf /etc/

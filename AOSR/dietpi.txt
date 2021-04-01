@@ -52,7 +52,7 @@ AUTO_SETUP_SWAPFILE_LOCATION=/var/swap
 #	Fully automate installation
 #		1=Automated installation with no user inputs.
 #		It is HIGHLY recommended to also set CONFIG_BOOT_WAIT_FOR_NETWORK=2, to force infinite wait for network connection during boot, preventing no connection errors due to timeout.
-AUTO_SETUP_AUTOMATED=0
+AUTO_SETUP_AUTOMATED=1
 
 #	Global Password to be applied for the system
 #		Affects user "root" and "dietpi" login passwords, and, all software installed by dietpi-software, that requires a password
@@ -65,24 +65,43 @@ AUTO_SETUP_GLOBAL_PASSWORD=Password has been encrypted and secured on rootFS
 #	For a list of software index's (ID's), run '/DietPi/dietpi/dietpi-software list'
 #	No limit on number entries, add as many as you need and uncomment the line.
 #	DietPi will automatically install all pre-reqs (eg: ALSA/XSERVER for desktops etc)
-#	- Examples:
-#AUTO_DietpiSoftware_Install_ID=25 	#will install Desktop XFCE
-AUTO_DietpiSoftware_Install_ID=74 	#will install LAMP webserver stack
-AUTO_DietpiSoftware_Install_ID=44	#will install Bittorrent transmission
-AUTO_DietpiSoftware_Install_ID=113
-AUTO_DietpiSoftware_Install_ID=120
+
+AUTO_DietpiSoftware_Install_ID=0
+AUTO_DietpiSoftware_Install_ID=1
+AUTO_DietpiSoftware_Install_ID=5
+AUTO_DietpiSoftware_Install_ID=6
+AUTO_DietpiSoftware_Install_ID=7
+AUTO_DietpiSoftware_Install_ID=9
+AUTO_DietpiSoftware_Install_ID=16
+AUTO_DietpiSoftware_Install_ID=17
+AUTO_DietpiSoftware_Install_ID=25
 AUTO_DietpiSoftware_Install_ID=37
 AUTO_DietpiSoftware_Install_ID=42
-AUTO_DietpiSoftware_Install_ID=116
-AUTO_DietpiSoftware_Install_ID=114
-AUTO_DietpiSoftware_Install_ID=63
 AUTO_DietpiSoftware_Install_ID=44
-AUTO_DietpiSoftware_Install_ID=48
-AUTO_DietpiSoftware_Install_ID=9
-AUTO_DietpiSoftware_Install_ID=137
+AUTO_DietpiSoftware_Install_ID=63
+AUTO_DietpiSoftware_Install_ID=68
+AUTO_DietpiSoftware_Install_ID=69
+AUTO_DietpiSoftware_Install_ID=81
+AUTO_DietpiSoftware_Install_ID=82
+AUTO_DietpiSoftware_Install_ID=84
+AUTO_DietpiSoftware_Install_ID=87
+AUTO_DietpiSoftware_Install_ID=88
+AUTO_DietpiSoftware_Install_ID=89
+AUTO_DietpiSoftware_Install_ID=91
+AUTO_DietpiSoftware_Install_ID=96
+AUTO_DietpiSoftware_Install_ID=102
+AUTO_DietpiSoftware_Install_ID=103
+AUTO_DietpiSoftware_Install_ID=104
+AUTO_DietpiSoftware_Install_ID=113
+AUTO_DietpiSoftware_Install_ID=114
+AUTO_DietpiSoftware_Install_ID=115
+AUTO_DietpiSoftware_Install_ID=120
+AUTO_DietpiSoftware_Install_ID=126
+AUTO_DietpiSoftware_Install_ID=130
 AUTO_DietpiSoftware_Install_ID=132
 AUTO_DietpiSoftware_Install_ID=138
-AUTO_DietpiSoftware_Install_ID=68
+AUTO_DietpiSoftware_Install_ID=152
+AUTO_DietpiSoftware_Install_ID=169
 
 #	DietPi-Software Choice System
 #	SSH Server Selection:
@@ -120,7 +139,7 @@ AUTO_SETUP_AUTOSTART_TARGET_INDEX=2
 
 #	Language/Regional settings | Requires AUTO_SETUP_AUTOMATED=1
 #		Timezone eg: Europe/London America/New_York | Full list (TZ*): https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-AUTO_SETUP_TIMEZONE=Europe/London
+AUTO_SETUP_TIMEZONE=America/New_York
 #		Locale eg: en_GB.UTF-8 / en_US.UTF-8 etc. One entry ONLY.
 AUTO_SETUP_LOCALE=en_US.UTF-8
 #		Keyboard Layout eg: gb us de fr
@@ -256,12 +275,12 @@ SOFTWARE_CHROMIUM_AUTOSTART_URL=https://google.com
 CONFIG_G_CHECK_URL_TIMEOUT=5
 CONFIG_G_CHECK_URL_ATTEMPTS=3
 AUTO_SETUP_AUTOSTART_LOGIN_USER=root
-SURVEY_OPTED_IN=1
+SURVEY_OPTED_IN=0
 CONFIG_CHECK_CONNECTION_IP=1.1.1.1
 CONFIG_CHECK_DNS_DOMAIN=one.one.one.one
 SOFTWARE_HOMEASSISTANT_APT_DEPS=
 SOFTWARE_HOMEASSISTANT_PIP_DEPS=
 AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
-AUTO_SETUP_ACCEPT_LICENSE=0
+AUTO_SETUP_ACCEPT_LICENSE=1
 AUTO_SETUP_BACKUP_RESTORE=0
 CONFIG_CHECK_APT_UPDATES=1
