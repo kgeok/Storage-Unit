@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Shutdown
+Comment=
+Exec=shutdown now
+Icon=application-exit
+Path=
+Terminal=false
+StartupNotify=false

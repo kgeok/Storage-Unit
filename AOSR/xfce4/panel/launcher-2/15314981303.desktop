@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Restart
+Comment=
+Exec=shutdown -r now
+Icon=object-rotate-left
+Path=
+Terminal=false
+StartupNotify=false
