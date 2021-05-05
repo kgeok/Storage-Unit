@@ -1,17 +1,17 @@
 #!/bin/bash
 echo -----------------------------------------------
-echo "AOSR v0.2, Written by Kevin George"
+echo "AOSR v0.3, Written by Kevin George"
 echo "Operating System Regeneration in Progress..."
 echo -----------------------------------------------
-sudo apt-get install Wicd
-sudo apt-get install npm
-sudo apt-get install XVKBD
-sudo apt-get install python3-dev python3-venv
-sudo apt-get install libavahi-compat-libdnssd-dev
-sudo apt-get install xinput-calibrator
-sudo apt-get git
-sudo apt-get install ntp
-sudo apt-get install pulseaudio pulseaudio-module-bluetooth
+sudo apt-get -y install Wicd
+sudo apt-get -y install npm
+sudo apt-get -y install XVKBD
+sudo apt-get -y install python3-dev python3-venv
+sudo apt-get -y install libavahi-compat-libdnssd-dev
+sudo apt-get -y install xinput-calibrator
+sudo apt-get -y git
+sudo apt-get -y install ntp
+sudo apt-get -y install pulseaudio pulseaudio-module-bluetooth
 sudo usermod -a -G bluetooth root
 sudo npm install npm -g
 sudo npm install -g node.js
