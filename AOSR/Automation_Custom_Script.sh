@@ -29,14 +29,14 @@ git clone https://github.com/kgeok/Storage-Unit.git
 git clone https://github.com/alexa-pi/AlexaPi.git
 cd Storage-Unit/
 pwd
-mv index.html /var/www/
+mv -T index.html /var/www/
 cd AOSR/
 pwd
 mv icons /var/www/
 pwd
-mv config.json /root/.homebridge/
+mv -T config.json /root/.homebridge/
 pwd
-mv smb.conf /etc/
+mv -T smb.conf /etc/
 pwd
 mv Desktop /root/
 pwd
