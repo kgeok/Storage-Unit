@@ -28,22 +28,15 @@ cd boot
 git clone https://github.com/kgeok/Storage-Unit.git
 git clone https://github.com/alexa-pi/AlexaPi.git
 cd Storage-Unit/
-pwd
-mv -T index.html /var/www/
+
+cp index.html /var/www/
 cd AOSR/
-pwd
-mv icons /var/www/
-pwd
-mv -T config.json /root/.homebridge/
-pwd
-mv -T smb.conf /etc/
-pwd
-mv Desktop /root/
-pwd
-mv shairport-sync.conf /etc/
-pwd
-mv /xfce4/ ~/.config/ 
-pwd
+cp icons /var/www/
+cp config.json /root/.homebridge/
+cp smb.conf /etc/
+cp Desktop /root/
+cp shairport-sync.conf /etc/
+cp /xfce4/ ~/.config/ 
 chown -R user:group ~/.config/xfce4
 cd ../
 cd ../
