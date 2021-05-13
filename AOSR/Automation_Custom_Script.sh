@@ -29,13 +29,13 @@ git clone https://github.com/kgeok/Storage-Unit.git
 git clone https://github.com/alexa-pi/AlexaPi.git
 cd Storage-Unit/
 
-cp index.html /var/www/index.html
+cp index.html /var/www/
 cd AOSR/
 cp -R icons /var/www/
-cp config.json /root/.homebridge/config.json
-cp smb.conf /etc/smb.conf
+cp config.json /root/.homebridge/
+cp smb.conf /etc/
 cp -R Desktop /root/
-cp shairport-sync.conf /etc/shairport-sync.conf
+cp shairport-sync.conf /etc/
 cp -R /xfce4/ ~/.config/ 
 chown -R user:group ~/.config/xfce4
 cd ../
