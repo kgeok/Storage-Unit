@@ -27,18 +27,28 @@ echo -----------------------------------------------
 cd boot
 git clone https://github.com/kgeok/Storage-Unit.git
 git clone https://github.com/alexa-pi/AlexaPi.git
-cd Storage-Unit/AOSR/
+cd Storage-Unit/
+pwd
 mv index.html /var/www/
+cd AOSR/
+pwd
 mv icons /var/www/
+pwd
 mv config.json /root/.homebridge/
+pwd
 mv smb.conf /etc/
+pwd
 mv Desktop /root/
+pwd
 mv shairport-sync.conf /etc/
+pwd
 mv /xfce4/ ~/.config/ 
+pwd
 chown -R user:group ~/.config/xfce4
 cd ../
 cd ../
 cd AlexaPi/
+pwd
 echo -----------------------------------------------
 echo "Phase 2 Complete!"
 echo -----------------------------------------------
