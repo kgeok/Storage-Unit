@@ -31,12 +31,12 @@ cd Storage-Unit/
 
 cp index.html /var/www/
 cd AOSR/
-cp -R icons /var/www/
+cp -R icons /var/www/icons/
 cp config.json /root/.homebridge/
 cp smb.conf /etc/
-cp -R Desktop /root/
+cp -R Desktop /root/Desktop/
 cp shairport-sync.conf /etc/
-cp -R /xfce4/ ~/.config/ 
+cp -R /xfce4/ ~/.config/xfce4/
 chown -R user:group ~/.config/xfce4
 cd ../
 cd ../
